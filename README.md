@@ -134,7 +134,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ### Notice
 
-Attacking different kinds of accounts via Emagnet that you have not been granted permission to attack is strictly prohibited and it breaks the law. The punishment is grave and you can even get into prison in some countries just for trying to attack for intrusion. That said, it's *important* that all users are aware of this and when you have cloned or downloaded the repo it's fully up to you to take responsibility for your actions. wuseman cannot be held responsible for the actions of any user, all users using Emagnet do so at their own responsibility. 
+Attacking different kinds of accounts via Emagnet that you have not been granted permission to attack is strictly prohibited and it breaks the law. The punishment is grave and you can even get into prison in some countries just for trying to attack for intrusion. That said, it's *important* that all users are aware of this and when you have cloned or downloaded the repository it's fully up to you to take responsibility for your actions. Wuseman cannot be held responsible for the actions of any user, all users using Emagnet do so at their own responsibility. 
 
 Developer: "All my previews where a brute force attack has been done is under controlling forms with 100% fully permissions by the owners. If you have any questions about this then you are welcome to contact me or the owner."
 
