@@ -276,12 +276,13 @@ emagnet_clear() {
 
 #### Check for a working connection, using google since it is up 24/7 
 emagnet_iconnection() {
-    ping -i "1" -c 1 google.com &> /dev/null
-        if [[ "$?" -gt "0" ]]; then 
-            echo -e "$basename$0: internal error -- this feature require a internet connection but you seems to be offline, exiting.."
-            exit 1
-        fi
+	if ! nc -zw1 google.com 443; then
+	   echo -e "$basename$0: internal error -- this feature require a internet connection but you seems to be offline, exiting.."
+	   exit 1
+	fi
 }
+
+
 
 emagnet_optional(){ 
      sleep 0
